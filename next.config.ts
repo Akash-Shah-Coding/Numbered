@@ -5,7 +5,10 @@ const nextConfig: NextConfig = {
     domains: [
       "res.cloudinary.com"
     ]
-  }
+  },
+ experimental: {
+    appDir: true, 
+  },
 };
 
 export default nextConfig;
